@@ -7,7 +7,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{EE868B72-19C6-4F3D-A7A1-8DE4037A14A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational", "Creational\Creational.csproj", "{21ECACFE-4CAF-4EBA-93E9-0C72F81CB7BD}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21ECACFE-4CAF-4EBA-93E9-0C72F81CB7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21ECACFE-4CAF-4EBA-93E9-0C72F81CB7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21ECACFE-4CAF-4EBA-93E9-0C72F81CB7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21ECACFE-4CAF-4EBA-93E9-0C72F81CB7BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
