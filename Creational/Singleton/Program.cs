@@ -1,4 +1,6 @@
-﻿using Creational.Singleton;
+﻿using Creational.Factory.Example;
+using Creational.Factory.Example.Levels;
+using Creational.Singleton;
 
 // <instruction>
 // uncomment the step you want to try
@@ -34,3 +36,24 @@
         
         NestedSingleton singleton = NestedSingleton.Instance;
     });*/
+
+
+// <section>
+// This section is dedicated for the factory 
+
+// simple 
+/*Level level1 = new CaveLevel();
+IEnemy enemy1 = level1.CreateEnemy();
+enemy1.Attack();
+enemy1.Scream();
+
+Level level2 = new CaveHouseLevel();
+IEnemy enemy2 = level2.CreateEnemy();
+enemy2.Attack();
+enemy2.Scream();*/
+
+Level level1 = new CaveLevel();
+level1.EnemyReact();
+
+Level level2 = new CaveHouseLevel();
+level2.EnemyReact();
