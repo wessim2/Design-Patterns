@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational", "Creational\Creational.csproj", "{4DC8D63E-4B25-4283-9CF1-4D1BD6AA2A9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational", "Creational\Creational.csproj", "{4DC8D63E-4B25-4283-9CF1-4D1BD6AA2A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral", "Behavioral\Behavioral.csproj", "{C234F66D-0998-4692-8D8A-939EAAF2E6D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4DC8D63E-4B25-4283-9CF1-4D1BD6AA2A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DC8D63E-4B25-4283-9CF1-4D1BD6AA2A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DC8D63E-4B25-4283-9CF1-4D1BD6AA2A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C234F66D-0998-4692-8D8A-939EAAF2E6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C234F66D-0998-4692-8D8A-939EAAF2E6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C234F66D-0998-4692-8D8A-939EAAF2E6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C234F66D-0998-4692-8D8A-939EAAF2E6D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
